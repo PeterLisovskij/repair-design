@@ -335,6 +335,12 @@ template {
     animation: show 2s ease 2s infinite; }
 
 .header {
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
   background-color: #131313;
   padding: 24px 0; }
 
@@ -349,6 +355,7 @@ template {
 
 .nav__item {
   color: #fff;
+  text-decoration: none;
   text-transform: uppercase;
   margin-right: 40px; }
 
